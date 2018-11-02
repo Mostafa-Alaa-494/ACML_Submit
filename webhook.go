@@ -7,11 +7,11 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/Mostafa-Alaa-494/Adv.Lab-Submit/config"
+	"github.com/Mostafa-Alaa-494/Adv.Lab-Submit/lib/google"
+	"github.com/Mostafa-Alaa-494/Adv.Lab-Submit/lib/slack"
+	"github.com/Mostafa-Alaa-494/Adv.Lab-Submit/lib/util"
 	"github.com/go-errors/errors"
-	"github.com/ramin0/submit/config"
-	"github.com/ramin0/submit/lib/google"
-	"github.com/ramin0/submit/lib/slack"
-	"github.com/ramin0/submit/lib/util"
 )
 
 var (

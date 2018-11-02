@@ -18,9 +18,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Mostafa-Alaa-494/Adv.Lab-Submit/config"
+	"github.com/Mostafa-Alaa-494/Adv.Lab-Submit/lib/google"
 	"github.com/PuerkitoBio/goquery"
-	"github.com/ramin0/submit/config"
-	"github.com/ramin0/submit/lib/google"
 	httpntlm "github.com/vadimi/go-http-ntlm"
 	calendar "google.golang.org/api/calendar/v3"
 )
