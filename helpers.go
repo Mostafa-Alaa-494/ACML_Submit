@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mostafa-Alaa-494/Adv.Lab-Submit/config"
-	"github.com/Mostafa-Alaa-494/Adv.Lab-Submit/lib/google"
+	"github.com/Mostafa-Alaa-494/ACML_Submit/config"
+	"github.com/Mostafa-Alaa-494/ACML_Submit/lib/google"
 	"github.com/PuerkitoBio/goquery"
 	httpntlm "github.com/vadimi/go-http-ntlm"
 	calendar "google.golang.org/api/calendar/v3"

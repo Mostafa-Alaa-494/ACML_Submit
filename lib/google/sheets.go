@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Mostafa-Alaa-494/Adv.Lab-Submit/config"
-	"github.com/Mostafa-Alaa-494/Adv.Lab-Submit/lib/util"
+	"github.com/Mostafa-Alaa-494/ACML_Submit/config"
+	"github.com/Mostafa-Alaa-494/ACML_Submit/lib/util"
 	sheets "google.golang.org/api/sheets/v4"
 )
 
