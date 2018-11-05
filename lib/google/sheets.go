@@ -74,7 +74,7 @@ func SheetsUserInfoBy(field, identifier string) (map[string]string, error) {
 			"FullName":  valueRow[1].(string),
 			"Email":     valueRow[5].(string),
 			"Group":     valueRow[2].(string),
-			"Team":      util.FormatTeamName(valueRow[3]),
+			"Team":      valueRow[3].(string),
 			"TeamGroup": valueRow[4].(string),
 		}
 		if userData[field] == identifier {
