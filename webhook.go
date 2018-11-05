@@ -131,7 +131,7 @@ func handleCommandID(e event) error {
 	go func(slackID string) {
 		defer func() {
 			if err := recover(); err != nil {
-				panicHandler(nil, nil, errors.Wrap(err, 1))
+				panicHandler(nil, errors.Wrap(err, 1))
 			}
 		}()
 
@@ -204,7 +204,7 @@ func handleCommandTeam(e event) error {
 	go func(teamID string) {
 		defer func() {
 			if err := recover(); err != nil {
-				panicHandler(nil, nil, errors.Wrap(err, 1))
+				panicHandler(nil, errors.Wrap(err, 1))
 			}
 		}()
 
@@ -272,7 +272,7 @@ func handleCommandProposal(e event) error {
 	go func(teamID string) {
 		defer func() {
 			if err := recover(); err != nil {
-				panicHandler(nil, nil, errors.Wrap(err, 1))
+				panicHandler(nil, errors.Wrap(err, 1))
 			}
 		}()
 
