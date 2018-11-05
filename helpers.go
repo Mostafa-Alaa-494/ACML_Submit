@@ -145,8 +145,8 @@ func logIn(username, password string) (*User, error) {
 	if strings.HasPrefix(username, "test:") && password == config.AdminPassword {
 		username = strings.TrimPrefix(username, "test:")
 		return &User{
-			ID:        username,
-			FullName:  fmt.Sprintf("Administrator (%s)", username)
+			ID:       username,
+			FullName: fmt.Sprintf("Administrator (%s)", username),
 		}, nil
 	}
 
