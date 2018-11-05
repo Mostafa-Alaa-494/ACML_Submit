@@ -53,7 +53,7 @@ func Mux() http.Handler {
 }
 
 // OnPanic func
-func OnPanic(fn func(*http.Request, *User, interface{})) {
+func OnPanic(fn func(*http.Request, interface{})) {
 	panicHandler = fn
 }
 
