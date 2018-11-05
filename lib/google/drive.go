@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"io"
+	"log"
 	"net/url"
 	"path/filepath"
 	"strings"
@@ -68,6 +69,7 @@ func DriveSubmit(userData map[string]string, file io.Reader, fileName string) (s
 	if !folderFound {
 		folder, err := service.Files.Create(folderMeta).Fields("id,name,webViewLink").Do()
 		if err != nil {
+			log.Printf("Error while creating a folder %s...\n", err)
 			return "", err
 		}
 

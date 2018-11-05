@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"html/template"
 	"io"
+	"log"
 	"math/rand"
 	"net/http"
 	"net/url"
@@ -147,6 +148,7 @@ func logIn(username, password string) (*User, error) {
 		return &User{
 			ID:       username,
 			FullName: fmt.Sprintf("Administrator (%s)", username),
+			UserName: username,
 		}, nil
 	}
 
@@ -177,6 +179,8 @@ func logIn(username, password string) (*User, error) {
 			return nil, err
 		}
 		user.UserName = username
+		user.fetchInfo()
+		log.Printf("User %s Logged in as part of Team %s...\n", user.UserName, user.teamName)
 		return user, nil
 	case http.StatusServiceUnavailable:
 		if user, err := fetchUserFromSheet(username); err == nil {
