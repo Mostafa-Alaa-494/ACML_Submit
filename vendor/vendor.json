@@ -34,8 +34,8 @@
 		},
 		{
 			"checksumSHA1": "r+y6QhIEFKRKfzhN17f56nBvedE=",
-			"path": "github.com/vadimi/go-http-ntlm",
-			"revision": "c1580071ae7e980f85487cdc710abdd875ccb27a",
+			"path": "github.com/Mostafa-Alaa-494/go-http-ntlm",
+			"revision": "1a2e10a5197723a5b324a58ed3dc613c4b1d6763",
 			"revisionTime": "2016-05-20T02:13:50Z"
 		},
 		{
