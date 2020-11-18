@@ -21,18 +21,6 @@
 			"revisionTime": "2017-10-07T14:12:28Z"
 		},
 		{
-			"checksumSHA1": "k7dj24i1Qu7rm1URfKic85+jNmQ=",
-			"path": "github.com/ThomsonReutersEikon/go-ntlm/ntlm",
-			"revision": "b00ec39bbdd04f845950f4dbb4fd0a2c3155e830",
-			"revisionTime": "2015-10-30T00:47:37Z"
-		},
-		{
-			"checksumSHA1": "me+I7kVdgomZhMQWZxRliecU2OQ=",
-			"path": "github.com/ThomsonReutersEikon/go-ntlm/ntlm/md4",
-			"revision": "b00ec39bbdd04f845950f4dbb4fd0a2c3155e830",
-			"revisionTime": "2015-10-30T00:47:37Z"
-		},
-		{
 			"checksumSHA1": "2rWSos1D+xqNSGkvEMOG3pntod8=",
 			"path": "github.com/andybalholm/cascadia",
 			"revision": "349dd0209470eabd9514242c688c403c0926d266",
